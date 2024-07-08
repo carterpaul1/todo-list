@@ -1,0 +1,49 @@
+.add-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.complete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.todo-item {
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-weight: bold; /* Default bold text for todos */
+    font-size: 18px;
+}
+
+.completed {
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-weight: normal; /* Adjust font weight for completed todos */
+    text-decoration: line-through; 
+}
